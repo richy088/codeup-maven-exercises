@@ -9,5 +9,7 @@ public class MavenExercise extends StringUtils {
         String userInput = scanner.nextLine();
         System.out.println("You entered: " + userInput);
         System.out.println(isNumeric(userInput));
+        System.out.println(swapCase(userInput));
+        System.out.println(reverse(userInput));
     }
 }
